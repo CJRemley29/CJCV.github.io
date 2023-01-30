@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    background-color: #C3B1E1;
+}
+.top {
+    background-color: #C3B1E1;
+    outline:5px solid black;
+    outline-offset: -100px;
+    position: relative;
+    height: 65vh;
+    width: 100%;
+    text-align: center;
+    padding-top: 300px; 
+    font-family: 'Roboto Mono', monospace;
+}
+.name {
+    border-bottom: 1px solid #000; 
+    line-height: 0.1px;
+    margin: 10px 400px 60px; 
+}
+.spname {
+    background-color: #C3B1E1;
+    padding:0 10px; 
+}
+.woodstock {
+}
+.snoopy {
+  
+}
+.middle {
+    position: relative;
+    text-align: center;
+    height: 100vh;
+    width: 100%;
+    border-top: 10px solid black;
+    background-color: #385F71;
+    color: white;
+    
+}
+.heads {
+    padding-top: 50px;
+    width: 50%;
+    float: left;
+    font-size: 25px;
+}
+.skills {
+    width: 50%;
+    float: right;
+}
+.headshot {
+    border-radius: 35px;
+    border: 5px solid black;
+    width: 35%;
+}
+.hello {
+    font-size: 50px;
+}
+.skillheader {
+    font-size: 40px;
+}
+.lang {
+    padding-bottom: 15px;
+    text-align: center;
+}
+.left {
+    float: left;
+    width: 50%;
+    margin-right: auto;
+    margin-left: 50px;
+}
+.right {
+    width: 50%;
+    margin-left: auto;
+    margin-right: 70px;
+}
+ul {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+}
+dl {
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+dd {
+    text-align: center;
+    margin-inline-start: 0px;
+}
+hr {
+    border-top: 15px dotted black;
+    border-bottom: none;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+h3 {
+    font-size: 25px;
+}
+a:link {
+    text-decoration: none;
+    color: #8F754F;
+}
+a:hover {
+    color:#C3B1E1;
+}
+.bottom {
+    text-align: center;
+    background-color: antiquewhite;
+    height: 15vh;
+    border-top: 10px solid #000;
+    color: gray;
+}
+form {
+    padding: 25px;
+}
+.contact {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+.card {
+    margin-left: 33%;
+    background-color: #385F71;
+    width: 33%;
+    box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2);
+    font-family: 'Montserrat', sans-serif;
+}
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
